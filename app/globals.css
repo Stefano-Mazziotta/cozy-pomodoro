@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cream-bg: #F4EFE6;
+  --color-cream-surface: #FFFDF8;
+  --color-cream-secondary: #E9E0D2;
+  --color-cream-border: #E2D8C9;
+  --color-coffee-text: #332B25;
+  --color-coffee-muted: #81766B;
+  --color-coffee-accent: #5C3D2E;
+  --color-coffee-dark: #241E1A;
+  --color-sage-accent: #4F6B4F;
+  --color-terracotta-accent: #BA5835;
+}
+
+@layer base {
+  :root {
+    --bg-cream: #F4EFE6;
+    --surface-cream: #FFFDF8;
+    --surface-secondary: #E9E0D2;
+    --border-cream: #E2D8C9;
+    --text-coffee: #332B25;
+    --text-muted: #81766B;
+    --accent-coffee: #5C3D2E;
+  }
+
+  body {
+    background-color: #F4EFE6;
+    color: #332B25;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* Subtle paper texture effect */
+.analog-paper {
+  background-color: #FFFDF8;
+  box-shadow: 0 4px 20px -2px rgba(51, 43, 37, 0.04), 0 2px 6px -1px rgba(51, 43, 37, 0.02);
+}
+
+.analog-pressed {
+  box-shadow: inset 0 2px 4px rgba(51, 43, 37, 0.08);
+}
+
+/* Tabular figures for timer digits */
+.tabular-timer {
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.02em;
+}
+
