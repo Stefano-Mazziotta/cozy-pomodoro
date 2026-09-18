@@ -2,6 +2,8 @@
 
 A calm, minimalist Pomodoro timer companion inspired by specialty coffee shops and analog notebooks.
 
+![Pomodoro Companion Screenshot](./docs/screenshot.jpg)
+
 ## Features
 
 - **Automatic Flow**: Strictly guides you through Work $\to$ Short Break $\to$ Long Break intervals with zero friction and automated progression.
