@@ -2,7 +2,7 @@
 
 A calm, minimalist Pomodoro timer companion inspired by specialty coffee shops and analog notebooks.
 
-![Pomodoro Companion Screenshot](./docs/screenshot.jpg)
+![Pomodoro Companion Screenshot](./docs/screenshot.png)
 
 ## Features
 
